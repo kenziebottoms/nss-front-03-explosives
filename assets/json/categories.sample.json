@@ -2,11 +2,11 @@
     "categories": [
         {
             "id": 0,
-            "name": "Chemically pure"
+            "name": "Fireworks"
         },
         {
             "id": 1,
-            "name": "Mixture"
+            "name": "Demolition"
         }
     ]
 }

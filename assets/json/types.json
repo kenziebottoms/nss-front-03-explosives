@@ -3,8 +3,38 @@
         {
             "id": 0,
             "category": 0,
-            "name": "personal",
-            "description": "Fireworks intended for recreational use during holiday celebrations"
+            "name": "Nitroglycerin",
+            "description": "Nitroglycerin is a heavy, colorless, oily, explosive liquid most commonly produced by nitrating glycerol with white fuming nitric acid under conditions appropriate to the formation of the nitric acid ester."
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "Acetone peroxide",
+            "description": "Acetone peroxide is an organic peroxide and a primary high explosive. It is produced by the oxidation of acetone to yield a mixture of linear monomer and cyclic dimer, trimer, and tetramer forms."
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "TNT",
+            "description": "Trinitrotoluene is a yellow solid sometimes used as a reagent in chemical synthesis, but it is best known as an explosive material with convenient handling properties."
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "Flash powder",
+            "description": "Flash powder is a pyrotechnic composition which burns quickly and if confined produces a loud report. It is widely used in theatrical pyrotechnics and fireworks and was once used for flashes in photography."
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "ANFO",
+            "description": "ANFO (or AN/FO, for ammonium nitrate/fuel oil) is a widely used bulk industrial explosive."
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "Cheddite",
+            "description": "Cheddite is a class of explosive materials invented in 1897 by E. A. G. Street of the firm of Berges, Corbin et Cie and originally manufactured in the town of Chedde in Haute-Savoie, France in the early twentieth century."
         }
     ]
 }

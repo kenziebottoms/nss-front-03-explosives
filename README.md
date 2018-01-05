@@ -6,17 +6,17 @@ You are going to be creating several JSON files that will be describing all of t
 
 ### Product Categories
 
-- [ ] Choose two or more categories for your products.
-- [ ] Give each one an integer unique id.
+- [x] Choose two or more categories for your products.
+- [x] Give each one an integer unique id.
 
-[Here's an example.](assets/json/categories.json)
+[Here's an example.](assets/json/categories.sample.json)
 
 ### Product Types
 
-- [ ] Create at least three types **for each** category of your products.
-- [ ] For each type, add a key/value pair that creates a relationship to the corresponding category.
+- [x] Create at least three types **for each** category of your products.
+- [x] For each type, add a key/value pair that creates a relationship to the corresponding category.
 
-[Here's an example.](assets/json/types.json)
+[Here's an example.](assets/json/types.sample.json)
 
 ### Product Details
 
@@ -24,7 +24,7 @@ You are going to be creating several JSON files that will be describing all of t
 - [ ] Add a key/value pair that creates a relationship to the appropriate product type.
 - [ ] Add at least 3 products for each type.
 
-[Here's an example.](assets/json/products.json)
+[Here's an example.](assets/json/products.sample.json)
 
 ### User interface
 
