@@ -10,13 +10,9 @@ function Type(id, catId, name, desc) {
     this.desc = desc;
 }
 
-const getTypes = () => {
-    return types;
-};
+const getTypes = () => types;
 
-const getType = id => {
-    return types.filter(type => type.id == id);
-};
+const getType = id => types.filter(type => type.id == id);
 
 const fetchTypes = () => {
     return new Promise((resolve, reject) => {
@@ -31,8 +27,8 @@ const fetchTypes = () => {
 
 const storeTypes = results => {
     results.forEach(result => {
-        let obj = new Type(result.id, result.catId, result.name, result.desc);
-        types.push(obj);
+        let type = new Type(result.id, result.catId, result.name, result.desc);
+        types.push(type);
     });
 };
 

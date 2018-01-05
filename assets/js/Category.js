@@ -19,9 +19,9 @@ const fetchCategories = () => {
     });
 };
 
-const storeCategories = cats => {
-    cats.forEach(cat => {
-        let category = new Category(cat.id, cat.name);
+const storeCategories = results => {
+    results.forEach(result => {
+        let category = new Category(result.id, result.name);
         categories.push(category);
     });
 };
