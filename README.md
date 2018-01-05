@@ -20,9 +20,9 @@ You are going to be creating several JSON files that will be describing all of t
 
 ### Product Details
 
-- [ ] Create a JSON file describing each product you offer.
-- [ ] Add a key/value pair that creates a relationship to the appropriate product type.
-- [ ] Add at least 3 products for each type.
+- [x] Create a JSON file describing each product you offer.
+- [x] Add a key/value pair that creates a relationship to the appropriate product type.
+- [x] Add at least 3 products for each type.
 
 [Here's an example.](assets/json/products.sample.json)
 

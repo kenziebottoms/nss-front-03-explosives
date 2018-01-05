@@ -27,14 +27,14 @@
         {
             "id": 4,
             "category": 1,
-            "name": "ANFO",
-            "description": "ANFO (or AN/FO, for ammonium nitrate/fuel oil) is a widely used bulk industrial explosive."
+            "name": "Sprengel explosive",
+            "description": "Sprengel explosives are a generic class of materials invented by Hermann Sprengel in the 1870s. They consist of stoichiometric mixtures of strong oxidisers and reactive fuels, mixed just prior to use in order to enhance safety."
         },
         {
             "id": 5,
             "category": 1,
-            "name": "Cheddite",
-            "description": "Cheddite is a class of explosive materials invented in 1897 by E. A. G. Street of the firm of Berges, Corbin et Cie and originally manufactured in the town of Chedde in Haute-Savoie, France in the early twentieth century."
+            "name": "Gunpowder",
+            "description": "Gunpowder, also known as black powder to distinguish it from modern smokeless gunpowder, is the earliest known chemical explosive. It consists of a mixture of sulfur, charcoal, and potassium nitrate."
         }
     ]
 }

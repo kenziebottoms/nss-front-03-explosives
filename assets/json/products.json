@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "type": 0,
+            "name": "Dynamite",
+            "description": "Dynamite is an explosive made of nitroglycerin, sorbents (such as powdered shells or clay) and stabilizers. It was invented by the Swedish chemist and engineer Alfred Nobel in Geesthacht, and patented in 1867."
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "Ballistite",
+            "description": "Ballistite is a smokeless propellant made from two high explosives, nitrocellulose and nitroglycerine. It was developed and patented by Alfred Nobel in the late 19th century."
+        },
+        {
+            "id": 2,
+            "type": 0,
+            "name": "Cordite",
+            "description": "Cordite is a family of smokeless propellants developed and produced in the United Kingdom since 1889 to replace gunpowder as a military propellant. Like gunpowder, cordite is classified as a low explosive because of its slow burning rates and consequently low brisance."
+        },
+        {
+            "id": 3,
+            "type": 1,
+            "name": "Flour bleaching agent",
+            "description": "Flour bleaching agent is a food additive added to flour in order to make it appear whiter (freshly milled flour has a yellowish tint) and to oxidize the surfaces of the flour grains and help with developing of gluten."
+        },
+        {
+            "id": 4,
+            "type": 1,
+            "name": "TATP",
+            "description": "The trimer form of acetone peroxide, known as triacetone triperoxide (TATP), has historically been more difficult to detect, and it has been used as an explosive in several terrorist attacks since 2001."
+        },
+        {
+            "id": 5,
+            "type": 1,
+            "name": "Methyl ethyl ketone",
+            "description": "Ketone peroxides are initiators for polymerization reactions in the making of fiberglass-reinforced composites. For these uses, the peroxides are typically in the form of a dilute solution in an organic solvent."
+        },
+        {
+            "id": 6,
+            "type": 2,
+            "name": "Artillery shell filling",
+            "description": "The German armed forces adopted TNT as a filling for artillery shells in 1902. TNT-filled armour-piercing shells would explode after they had penetrated the armour of British capital ships."
+        },
+        {
+            "id": 7,
+            "type": 2,
+            "name": "Dunnite",
+            "description": "Dunnite, also known as Explosive D or systematically as ammonium picrate, is an explosive developed in 1906 by US Army Major Beverly W. Dunn, who later served as the chief inspector of the Bureau of Transportation Explosives."
+        },
+        {
+            "id": 8,
+            "type": 2,
+            "name": "Amatex",
+            "description": "Amatex is a military explosive consisting of 51% ammonium nitrate, 40% TNT, and 9% RDX."
+        },
+        {
+            "id": 9,
+            "type": 3,
+            "name": "Lycopodium powder",
+            "description": "Lycopodium powder is a yellow-tan dust-like powder historically used as a flash powder.[1] It is composed of the dry spores of clubmoss plants, various fern relatives principally in the genera Lycopodium and Diphasiastrum."
+        },
+        {
+            "id": 10,
+            "type": 3,
+            "name": "Thermite",
+            "description": "Thermite is a pyrotechnic composition of metal powder, which serves as fuel, and metal oxide. When ignited by heat, thermite undergoes an exothermic reduction-oxidation (redox) reaction."
+        },
+        {
+            "id": 11,
+            "type": 3,
+            "name": "Magnesium and nitrate",
+            "description": "Another flash composition common among amateurs consists of magnesium powder and potassium nitrate. Other metal nitrates have been used, including barium and strontium nitrates."
+        },
+        {
+            "id": 12,
+            "type": 4,
+            "name": "Oxyliquit",
+            "description": "An Oxyliquit is an explosive material which is a mixture of liquid oxygen with a suitable fuel, such as carbon or an organic chemical, wood meal, or aluminium powder or sponge. It is a class of Sprengel explosives."
+        },
+        {
+            "id": 13,
+            "type": 4,
+            "name": "ANFO",
+            "description": "ANFO (or AN/FO, for ammonium nitrate/fuel oil) is a widely used bulk industrial explosive."
+        },
+        {
+            "id": 14,
+            "type": 4,
+            "name": "Cheddite",
+            "description": "Cheddite is a class of explosive materials invented in 1897 by E. A. G. Street of the firm of Berges, Corbin et Cie and originally manufactured in the town of Chedde in Haute-Savoie, France in the early twentieth century."
+        },
+        {
+            "id": 15,
+            "type": 5,
+            "name": "Pyrodex",
+            "description": "Pyrodex is a black powder substitute is a replacement for black powder used in muzzleloading and cartridge firearms."
+        },
+        {
+            "id": 16,
+            "type": 5,
+            "name": "Brown powder",
+            "description": "Brown powder or prismatic powder, sometimes referred to cocoa powder due to its color, was an explosive-based propellant used in large artillery and ship's guns from about the 1870s."
+        },
+        {
+            "id": 17,
+            "type": 5,
+            "name": "Lesmok powder",
+            "description": "Lesmok powder is one of several semi-smokeless products in the industry containing a mixture of black and nitrocellulose powder."
+        }
+    ]
+}
