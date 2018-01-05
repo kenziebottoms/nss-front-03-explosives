@@ -1,9 +1,8 @@
 "use strict";
 
 const populateDropdown = cats => {
-    cats.forEach(cat => {
-        $("#categories").append(`<a class="dropdown-item" href="#">${cat.name}</a>`);
-    });
+    const dropdownTemplate = require("../templates/dropdown.hbs");
+    $("#categories").append(dropdownTemplate({"cats": cats}));
 };
 
 module.exports = {populateDropdown};
