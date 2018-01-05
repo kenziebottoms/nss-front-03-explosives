@@ -13,11 +13,7 @@ const store = results => {
     .then(results => {
         return productFactory.fetchProducts();
     }).then(results => {
-        let categories = catFactory.getCategories();
-        view.populateDropdown(categories);
-        let products = productFactory.getProducts();
-        console.log(products);
-        view.populateProducts(products);
+        view.refresh();
     });
 };
 

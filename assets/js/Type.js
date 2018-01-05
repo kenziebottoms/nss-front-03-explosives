@@ -1,9 +1,9 @@
 "use strict";
 
 let types = [];
-const catFactory = require("./Category");
 
 function Type(id, catId, name, desc) {
+    const catFactory = require("./Category");
     this.id = id;
     this.cat = catFactory.getCategory(catId);
     this.name = name;
@@ -27,7 +27,7 @@ const fetchTypes = () => {
 
 const storeTypes = results => {
     results.forEach(result => {
-        let type = new Type(result.id, result.catId, result.name, result.desc);
+        let type = new Type(result.id, result.category, result.name, result.description);
         types.push(type);
     });
 };

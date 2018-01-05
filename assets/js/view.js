@@ -10,4 +10,13 @@ const populateProducts = products => {
     $("#products").append(productsTableTemplate({"products": products}));
 };
 
-module.exports = {populateDropdown, populateProducts};
+const refresh = () => {
+    const catFactory = require("./Category");
+    const productFactory = require("./Product");
+    let categories = catFactory.getCategories();
+    populateDropdown(categories);
+    let products = productFactory.getProducts();
+    populateProducts(products);
+};
+
+module.exports = {populateDropdown, populateProducts, refresh};

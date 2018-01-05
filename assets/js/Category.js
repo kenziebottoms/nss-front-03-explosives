@@ -1,7 +1,8 @@
 "use strict";
 
-let categories = [];
 const view = require("./view");
+
+let categories = [];
 
 function Category(id, name) {
     this.id = id;
