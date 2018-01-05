@@ -7,15 +7,17 @@ const view = require('./view');
 
 const store = results => {
     catFactory.fetchCategories()
-    .then(categories => {
+    .then(results => {
         return typeFactory.fetchTypes();
     })
-    .then(types => {
+    .then(results => {
         return productFactory.fetchProducts();
-    }).then(products => {
-        console.log(catFactory.getCategories());
-        console.log(typeFactory.getTypes());
-        console.log(productFactory.getProducts());
+    }).then(results => {
+        let categories = catFactory.getCategories();
+        view.populateDropdown(categories);
+        let products = productFactory.getProducts();
+        console.log(products);
+        view.populateProducts(products);
     });
 };
 

@@ -31,7 +31,7 @@ const getCategories = () => {
 };
 
 const getCategory = id => {
-    return categories.filter(cat => cat.id == id);
+    return categories.filter(cat => cat.id == id)[0];
 };
 
 module.exports = {fetchCategories, getCategories, getCategory};

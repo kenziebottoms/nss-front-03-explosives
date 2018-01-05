@@ -12,7 +12,7 @@ function Type(id, catId, name, desc) {
 
 const getTypes = () => types;
 
-const getType = id => types.filter(type => type.id == id);
+const getType = id => types.filter(type => type.id == id)[0];
 
 const fetchTypes = () => {
     return new Promise((resolve, reject) => {

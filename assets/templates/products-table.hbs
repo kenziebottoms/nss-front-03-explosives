@@ -3,15 +3,15 @@
         <tr>
             <th>Name</th>
             <th>Type</th>
-            <ht>Description</ht>
+            <th>Description</th>
         </tr>
     </thead>
     <tbody>
         {{#each products}}
             <tr>
                 <td>{{name}}</td>
-                <td>{{type}}</td>
-                <td>{{description}}</td>
+                <td>{{type.name}}</td>
+                <td>{{desc}}</td>
             </tr>
         {{/each}}
     </tbody>
