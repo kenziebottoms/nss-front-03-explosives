@@ -1,19 +1,34 @@
-# Using this repo
+# Acme Explosives
 
-### Initialize an `npm` project for use with Grunt
+## Requirements
 
-In the root:
+You are going to be creating several JSON files that will be describing all of the explosive products that you sell. You need to use Promises to handle the order of the asynchronous operations needed to load the data.
 
-```shell
-> npm init -y
-```
+### Product Categories
 
-`-y` says yes to every question `npm init` would otherwise ask you.
+- [ ] Choose two or more categories for your products.
+- [ ] Give each one an integer unique id.
 
-### Install necessary `npm` modules
+[Here's an example.](assets/json/categories.json)
 
-These are listed as dependencies in `package.json` already.
+### Product Types
 
-```shell
-> npm install
-```
+- [ ] Create at least three types **for each** category of your products.
+- [ ] For each type, add a key/value pair that creates a relationship to the corresponding category.
+
+[Here's an example.](assets/json/types.json)
+
+### Product Details
+
+- [ ] Create a JSON file describing each product you offer.
+- [ ] Add a key/value pair that creates a relationship to the appropriate product type.
+- [ ] Add at least 3 products for each type.
+
+[Here's an example.](assets/json/products.json)
+
+### User interface
+
+- [ ] Create a simple user interface for your product catalog where a user can select a category from a dropdown.
+- [ ] When a category is selected, you must use Promises to read, first, from the `categories.json` to load that array of objects, then load `types.json`, then `products.json`.
+- [ ] Once all data is loaded, you need to display the products in a Bootstrap grid.
+    - [ ] Each product must display the string name of its product type, and product category. Not the integer id value.
