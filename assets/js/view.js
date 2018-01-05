@@ -5,4 +5,9 @@ const populateDropdown = cats => {
     $("#categories").append(dropdownTemplate({"cats": cats}));
 };
 
-module.exports = {populateDropdown};
+const populateProducts = products => {
+    const productsTableTemplate = require("../templates/products-table.hbs");
+    $("#products").append(productsTableTemplate({"products": products}));
+};
+
+module.exports = {populateDropdown, populateProducts};

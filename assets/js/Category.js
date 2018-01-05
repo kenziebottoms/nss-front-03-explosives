@@ -11,18 +11,18 @@ function Category(id, name) {
 const fetchCategories = () => {
     return new Promise((resolve, reject) => {
         $.get("assets/json/categories.json")
-        .done(results => resolve(results.categories))
+        .done(results => {
+            storeCategories(results.categories);
+            resolve(results.categories);
+        })
         .fail(error => reject(error));
     });
 };
 
-const processCategories = results => {
-    fetchCategories().then(cats => {
-        cats.forEach(cat => {
-            let category = new Category(cat.id, cat.name);
-            categories.push(category);
-        });
-        view.populateDropdown(categories);
+const storeCategories = cats => {
+    cats.forEach(cat => {
+        let category = new Category(cat.id, cat.name);
+        categories.push(category);
     });
 };
 
@@ -30,4 +30,8 @@ const getCategories = () => {
     return categories;
 };
 
-module.exports = {processCategories, getCategories};
+const getCategory = id => {
+    return categories.filter(cat => cat.id == id);
+};
+
+module.exports = {fetchCategories, getCategories, getCategory};
