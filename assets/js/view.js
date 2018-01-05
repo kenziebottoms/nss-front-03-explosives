@@ -2,20 +2,23 @@
 
 const populateDropdown = cats => {
     const dropdownTemplate = require("../templates/dropdown.hbs");
-    $("#categories").append(dropdownTemplate({"cats": cats}));
+    $("#categories").html(dropdownTemplate({"cats": cats}));
 };
 
 const populateProducts = products => {
     const productsTableTemplate = require("../templates/products-table.hbs");
-    $("#products").append(productsTableTemplate({"products": products}));
+    $("#products").html(productsTableTemplate({"products": products}));
 };
 
-const refresh = () => {
+const refresh = catId => {
     const catFactory = require("./Category");
     const productFactory = require("./Product");
     let categories = catFactory.getCategories();
     populateDropdown(categories);
     let products = productFactory.getProducts();
+    if (catId) {
+        products = productFactory.getProducts(catId);
+    }
     populateProducts(products);
 };
 

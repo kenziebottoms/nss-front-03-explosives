@@ -29,6 +29,12 @@ const storeProducts = results => {
     });
 };
 
-const getProducts = () => products;
+const getProducts = catId => {
+    if (catId) {
+        return products.filter(product => product.type.cat.id == catId);
+    } else {
+        return products;
+    }
+};
 
 module.exports = {getProducts, fetchProducts};
