@@ -11,9 +11,9 @@
 ## Install locally
 
 ```
-> git clone git@github.com:kenziebottoms/nss-front-03-explosives.git
-> npm install
-> grunt
+git clone git@github.com:kenziebottoms/nss-front-03-explosives.git
+npm install
+grunt
 ```
 
 ## Requirements
