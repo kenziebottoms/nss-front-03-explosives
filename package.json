@@ -1,7 +1,7 @@
 {
   "name": "name",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/data-static-lightgrey.svg) ![](https://img.shields.io/badge/template-handlebars-orange.svg) ![](https://img.shields.io/badge/js-jquery-blue.svg) ![](https://img.shields.io/badge/modularity-browserify-yellow.svg) ![](https://img.shields.io/badge/css_preprocessor-scss-ff69b4.svg) ![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg) ![](https://img.shields.io/badge/mvp-working-brightgreen.svg)",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "grunt": "^1.0.1",
-    "grunt-browserify": "^5.2.0",
+    "grunt": "^1.0.3",
+    "grunt-browserify": "^5.3.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "handlebars": "^4.0.11",
     "hbsfy": "^2.8.1",
+    "http-server": "^0.11.1",
     "matchdep": "^2.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenziebottoms/nss-front-03-explosives.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenziebottoms/nss-front-03-explosives/issues"
+  },
+  "homepage": "https://github.com/kenziebottoms/nss-front-03-explosives#readme"
 }

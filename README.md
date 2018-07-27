@@ -12,8 +12,10 @@
 
 ```
 git clone git@github.com:kenziebottoms/nss-front-03-explosives.git
+cd nss-front-03-explosives
 npm install
 grunt
+hs -o
 ```
 
 ## Requirements
